@@ -17,7 +17,7 @@ const perguntas = [
             }    
            
         ]
-    },
+    }
     {
        
             enunciado: "As fontes renováveis de energia são aquelas formas de produção de energia em que suas fontes são capazes de manter-se disponíveis durante um longo prazo, contando com recursos que se regeneram ou que se mantêm ativos permanentemente. Com base nisso, temos a energia geotérmica, que consiste em utilizar o calor manifestado em áreas próximas à superfície. Qual a sua opinião sobre esse modelo de energia renovável?",
@@ -50,6 +50,7 @@ const perguntas = [
             ]
         },
 ]
+
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
