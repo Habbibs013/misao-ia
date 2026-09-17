@@ -81,6 +81,10 @@ function respostaSelecionada(opcaoSelecionada) {
     atual++;
     mostraPergunta();
 }
+function aleatorio(lista) {
+const posicao = Math.floor(Math.random()* lista.length);
+return lista[posicao];
+}
 
 function mostraResultado(){
     caixaPerguntas.textContent = "Olha só o seu perfil de atuação:";
