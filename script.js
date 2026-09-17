@@ -76,7 +76,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = opcaoSelecionada.aleatorio();
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
