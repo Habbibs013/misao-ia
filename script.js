@@ -28,7 +28,7 @@ const perguntas = [
                 afirmacao: "Sua preocupação abrange a saúde pública, o bem-estar animal e o desenvolvimento sustentável.",
                             "Sua atuação pauta-se pelo compromisso com a saúde pública, a garantia do bem-estar animal e a promoção do desenvolvimento sustentável."
             },
-
+            
                 texto: "A destruição de sítios fossilíferos impede o avanço da ciência nacional e privatiza bens públicos inestimáveis.",
                 afirmacao: "Você defende a pesquisa científica pública e o livre acesso ao conhecimento geológico do país.",
                             "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."
@@ -76,15 +76,12 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.aleatorio();
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
 }
-function aleatorio(lista) {
-const posicao = Math.floor(Math.random()* lista.length);
-return lista[posicao];
-}
+
 function mostraResultado(){
     caixaPerguntas.textContent = "Olha só o seu perfil de atuação:";
     textoResultado.textContent = historiaFinal;
