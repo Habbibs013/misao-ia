@@ -30,7 +30,7 @@ export const perguntas = [
                 afirmacao: ["Você defende a pesquisa científica pública e o livre acesso ao conhecimento geológico do país.",
                             "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."
                 ]
-                        ]
+                    ]
     },
     {
         enunciado: "Se você pudesse direcionar recursos públicos hoje, qual seria a sua prioridade principal?",
