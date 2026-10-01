@@ -46,6 +46,7 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Olha só o seu perfil de atuação:";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente());
 
 }
