@@ -43,7 +43,7 @@ export const perguntas = [
                         },
             {
                 texto: "Reforçar a vigilância de fronteiras contra a saída de fósseis e financiar o repatriamento de acervos no exterior.",
-                afirmacao: ["Seu compromisso é com a soberania científica nacional e a recuperação da memória fóssil do país."
+                afirmacao: ["Seu compromisso é com a soberania científica nacional e a recuperação da memória fóssil do país.",
                             "Sua atuação reafirma a dedicação à soberania científica do Brasil e à preservação do acervo paleontológico nacional."
                 ]
                         }
