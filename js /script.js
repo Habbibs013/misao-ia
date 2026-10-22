@@ -55,4 +55,5 @@ function jogaNovamente(){
     historiaFinal = "";
     mostraPergunta();
 }
+
 mostraPergunta();
