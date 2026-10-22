@@ -25,12 +25,14 @@ export const perguntas = [
                             "Sua atuação pauta-se pelo compromisso com a saúde pública, a garantia do bem-estar animal e a promoção do desenvolvimento sustentável."
                 ]
                         },
-            
+            {
                 texto: "A destruição de sítios fossilíferos impede o avanço da ciência nacional e privatiza bens públicos inestimáveis.",
                 afirmacao: ["Você defende a pesquisa científica pública e o livre acesso ao conhecimento geológico do país.",
                             "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."
-                ]
-                    ]
+                   
+                        ]
+                }
+            ]      
     },
     {
         enunciado: "Se você pudesse direcionar recursos públicos hoje, qual seria a sua prioridade principal?",
@@ -46,7 +48,7 @@ export const perguntas = [
                 afirmacao: ["Seu compromisso é com a soberania científica nacional e a recuperação da memória fóssil do país.",
                             "Sua atuação reafirma a dedicação à soberania científica do Brasil e à preservação do acervo paleontológico nacional."
                 ]
-                        }
+                        },
         ]
     }
 ];
