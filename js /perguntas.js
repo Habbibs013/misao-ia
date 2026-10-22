@@ -28,8 +28,7 @@ export const perguntas = [
             {
                 texto: "A destruição de sítios fossilíferos impede o avanço da ciência nacional e privatiza bens públicos inestimáveis.",
                 afirmacao: ["Você defende a pesquisa científica pública e o livre acesso ao conhecimento geológico do país.",
-                            "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."
-                   
+                            "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."                   
                         ]
                 }
             ]      
