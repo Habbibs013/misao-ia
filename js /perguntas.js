@@ -13,7 +13,7 @@ export const perguntas = [
                 afirmacao: ["Você valoriza a salvaguarda da história natural brasileira e o combate ao saque do patrimônio científico.",
                             "Tom formal: Sua atuação evidencia o compromisso com a preservação do patrimônio natural brasileiro e o combate à exploração indevida da ciência nacional."
                 ]
-                        }
+                        },
         ]
     },
     {
@@ -30,7 +30,7 @@ export const perguntas = [
                 afirmacao: ["Você defende a pesquisa científica pública e o livre acesso ao conhecimento geológico do país.",
                             "Defende-se o fortalecimento do ensino e da pesquisa públicos, bem como a transparência na difusão dos dados geológicos do Brasil."                   
                         ]
-                }
+                },
             ]      
     },
     {
